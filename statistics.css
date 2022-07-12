@@ -195,13 +195,12 @@
 
 .u-section-2 .u-text-1 {
   font-family: Purista-Bold;
-  margin: 113px 30px 0;
+  margin: 19px 30px 0;
 }
 
 .u-section-2 .u-text-2 {
   font-family: Purista-SemiBold;
-  width: 333px;
-  margin: 27px auto 0;
+  margin: 48px 27px 0 39px;
 }
 
 .u-section-2 .u-layout-cell-2 {
@@ -243,6 +242,7 @@
   .u-section-2 .u-text-2 {
     margin-left: 26px;
     margin-right: 26px;
+    width: 333px;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -305,11 +305,6 @@
 
   .u-section-2 .u-layout-wrap-1 {
     width: 540px;
-  }
-
-  .u-section-2 .u-text-2 {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-section-2 .u-layout-cell-2 {
