@@ -23,7 +23,25 @@
     <meta property="og:title" content="MEDCOM Register">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-2VZLHMGGHM\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-2VZLHMGGHM');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 <script src="https://kit.fontawesome.com/2367886870.js" crossorigin="anonymous"></script><script src="https://www.google.com/recaptcha/api.js?render=6LeJeekgAAAAACZPVXToIKzB-wW4iWEJ9xJI23u7"></script>
     <script>
 ( function( grecaptcha, sitekey, actions ) {
