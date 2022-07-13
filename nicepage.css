@@ -38295,6 +38295,11 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -59px 20px 53px auto;
 }
 
+.u-header .u-file-icon-1 {
+  font-size: calc(1em + 8px);
+  padding: 4px 16px;
+}
+
 .u-header .u-nav-1 {
   font-weight: 700;
   font-family: Purista-SemiBold;
@@ -38316,18 +38321,44 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 165px;
+  }
+
   .u-header .u-text-1 {
     margin-right: 455px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -61px;
+    margin-right: 0;
+    margin-bottom: 55px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
     margin-right: 275px;
   }
+
+  .u-header .u-menu-1 {
+    margin-top: -61px;
+    margin-right: 0;
+  }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 166px;
+  }
+
   .u-header .u-text-1 {
+    width: auto;
+    margin-top: 54px;
     margin-right: 75px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -57px;
   }
 }
  .u-footer {
