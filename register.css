@@ -90,7 +90,8 @@
 .u-section-1 .u-group-2 {
   width: 1102px;
   min-height: 198px;
-  margin: 48px auto 10px;
+  height: auto;
+  margin: 29px auto;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -103,42 +104,9 @@
   margin: 44px 491px 0 29px;
 }
 
-.u-section-1 .u-form-2 {
-  height: 71px;
-  width: 1019px;
-  margin: 17px 0 0 19px;
-}
-
-.u-section-1 .u-form-group-5 {
-  margin-left: 0;
-}
-
-.u-section-1 .u-label-4 {
+.u-section-1 .u-text-5 {
   font-family: Purista-SemiBold;
-}
-
-.u-section-1 .u-input-4 {
-  width: 100%;
-  font-family: Purista-SemiBold;
-}
-
-.u-section-1 .u-form-group-6 {
-  margin-left: 0;
-}
-
-.u-section-1 .u-label-5 {
-  font-family: Purista-SemiBold;
-}
-
-.u-section-1 .u-input-5 {
-  width: 100%;
-  font-family: Purista-SemiBold;
-}
-
-.u-section-1 .u-btn-4 {
-  background-image: none;
-  border-style: solid;
-  font-family: Purista-SemiBold;
+  margin: 21px 13px 0 29px;
 }
 
 @media (max-width: 1199px) {
@@ -196,6 +164,7 @@
 
   .u-section-1 .u-group-2 {
     width: 940px;
+    height: auto;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -208,31 +177,9 @@
     margin-left: 0;
   }
 
-  .u-section-1 .u-form-2 {
+  .u-section-1 .u-text-5 {
+    margin-right: 0;
     margin-left: 0;
-    width: 880px;
-  }
-
-  .u-section-1 .u-form-group-5 {
-    height: 338px;
-    margin-top: 55px;
-    margin-right: 570px;
-    margin-bottom: 60px;
-  }
-
-  .u-section-1 .u-label-4 {
-    width: 100%;
-  }
-
-  .u-section-1 .u-form-group-6 {
-    height: 338px;
-    margin-top: 55px;
-    margin-right: 570px;
-    margin-bottom: 60px;
-  }
-
-  .u-section-1 .u-label-5 {
-    width: 100%;
   }
 }
 
@@ -271,18 +218,6 @@
 
   .u-section-1 .u-text-4 {
     margin-right: 138px;
-  }
-
-  .u-section-1 .u-form-2 {
-    width: 660px;
-  }
-
-  .u-section-1 .u-form-group-5 {
-    margin-right: 350px;
-  }
-
-  .u-section-1 .u-form-group-6 {
-    margin-right: 350px;
   }
 }
 
@@ -331,18 +266,6 @@
   .u-section-1 .u-text-4 {
     margin-right: 0;
   }
-
-  .u-section-1 .u-form-2 {
-    width: 520px;
-  }
-
-  .u-section-1 .u-form-group-5 {
-    margin-right: 170px;
-  }
-
-  .u-section-1 .u-form-group-6 {
-    margin-right: 170px;
-  }
 }
 
 @media (max-width: 575px) {
@@ -376,18 +299,6 @@
 
   .u-section-1 .u-group-2 {
     width: 340px;
-  }
-
-  .u-section-1 .u-form-2 {
-    width: 320px;
-  }
-
-  .u-section-1 .u-form-group-5 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-form-group-6 {
-    margin-right: 0;
   }
 }@font-face {
   font-family: 'Purista-Bold';
