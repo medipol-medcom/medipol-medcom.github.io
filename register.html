@@ -23,8 +23,54 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<script src="https://kit.fontawesome.com/2367886870.js" crossorigin="anonymous"></script></head>
-  <body class="u-body u-xl-mode"><header class="u-black u-clearfix u-header u-header" id="sec-d671"><div class="u-clearfix u-sheet u-sheet-1">
+<script src="https://kit.fontawesome.com/2367886870.js" crossorigin="anonymous"></script><script src="https://www.google.com/recaptcha/api.js?render=6LeJeekgAAAAACZPVXToIKzB-wW4iWEJ9xJI23u7"></script>
+    <script>
+( function( grecaptcha, sitekey, actions ) {
+
+	var recaptcha = {
+
+		execute: function( action ) {
+			grecaptcha.execute(
+				sitekey,
+				{ action: action }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'recaptchaResponse' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		},
+
+		executeContact: function() {
+			recaptcha.execute( actions[ 'contact' ] );
+		}
+	};
+
+	grecaptcha.ready(
+		recaptcha.executeContact
+	);
+
+	document.addEventListener( 'change',
+		recaptcha.executeContact, false
+	);
+} )(
+	grecaptcha,
+	'6LeJeekgAAAAACZPVXToIKzB-wW4iWEJ9xJI23u7',
+	{"contact":"contact"}
+);
+    </script>
+</head>
+  <body class="u-body u-xl-mode" data-lang="en"><header class="u-black u-clearfix u-header u-header" id="sec-d671"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-align-left u-custom-font u-text u-text-body-alt-color u-text-1">
           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="index.html" data-page-id="89717531">MEDCOM</a>
         </p>
@@ -63,7 +109,7 @@
               <br>
             </h4>
             <div class="u-form u-form-1">
-              <form action="#" method="POST" class="u-clearfix u-form-spacing-27 u-form-vertical u-inner-form" source="contact7" name="form" style="padding: 10px;">
+              <form action="#" method="POST" class="u-clearfix u-form-spacing-27 u-form-vertical u-inner-form" source="contact7" name="form-registration" style="padding: 10px;">
                 <div class="u-form-group u-form-partition-factor-2 u-form-group-1">
                   <label for="text-5882" class="u-custom-font u-label u-label-1">Name</label>
                   <input type="text" placeholder="First" id="text-5882" name="first" class="u-border-1 u-border-grey-80 u-custom-font u-input u-input-rectangle u-radius-4 u-white u-input-1">
@@ -94,7 +140,7 @@
               <span class="u-text-body-alt-color"> Community Announcement </span>Deregistration<br>
             </h4>
             <div class="u-form u-form-2">
-              <form action="#" method="POST" class="u-clearfix u-form-horizontal u-form-spacing-27 u-inner-form" source="contact7" name="form" style="padding: 10px;">
+              <form action="#" method="POST" class="u-clearfix u-form-horizontal u-form-spacing-27 u-inner-form" source="contact7" name="form-deregistration" style="padding: 10px;">
                 <div class="u-form-email u-form-group u-form-group-5">
                   <label for="email-8f4e" class="u-custom-font u-label u-label-4">Email</label>
                   <input type="email" placeholder="Enter a valid email address" id="email-8f4e" name="email" class="u-border-1 u-border-grey-80 u-custom-font u-input u-input-rectangle u-radius-4 u-white u-input-4" required="">
