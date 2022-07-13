@@ -38097,7 +38097,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 163px;
+  min-height: 227px;
 }
 
 .u-header .u-text-1 {
@@ -38112,7 +38112,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -59px 20px 52px auto;
+  margin: -59px 20px 60px auto;
 }
 
 .u-header .u-nav-1 {
@@ -38126,65 +38126,28 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 157px;
-  }
-
   .u-header .u-text-1 {
     margin-right: 675px;
     margin-left: 0;
-    width: 876px;
   }
 
   .u-header .u-menu-1 {
-    width: auto;
-    margin-right: 13px;
-    margin-bottom: 46px;
+    margin-top: -59px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 170px;
-  }
-
   .u-header .u-text-1 {
     margin-right: 455px;
-    width: 720px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-right: 0;
-    margin-bottom: 59px;
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 154px;
-  }
-
   .u-header .u-text-1 {
     margin-right: 275px;
-    width: 540px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -57px;
-    margin-bottom: 41px;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 144px;
-  }
-
   .u-header .u-text-1 {
     margin-right: 75px;
-    width: 340px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -63px;
-    margin-bottom: 40px;
   }
 }
  .u-footer {
@@ -38199,6 +38162,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
+ /*begin-variables custom-site-css*/.grecaptcha-badge { visibility: hidden; }/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
